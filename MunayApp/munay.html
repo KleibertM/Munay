@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munay</title>
+
+    <!-- ICON -->
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header >
+        <!-- <div>
+            <div class="position-sticky">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div> -->
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/icon.png" alt="" style="height: 3rem;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i class='bx bxs-home-heart'></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><i class='bx bxs-cart'></i> Carrito</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class='bx bxs-food-menu'></i> Sabores
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#mango">Mango  <img src="https://cdn-icons-png.flaticon.com/512/6866/6866546.png" alt="" style="height: 1.5rem;"> </a></li>
+                        <li><a class="dropdown-item" href="#fresa">Fresa  <img src="https://cdn-icons-png.flaticon.com/512/590/590685.png" alt="" style="height: 1.5rem;"> </a></li>
+                        <li><a class="dropdown-item" href="#maracuya">Maracuya  <img src="https://cdn-icons-png.flaticon.com/512/2759/2759492.png" alt="" style="height: 1.5rem;"> </a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><h5 class="dropdown-item disabled">Especianles <i class='bx bxs-pin'></i></h5></li>
+                        <li><a class="dropdown-item" href="#oreo">Oreo <img src="https://freepngimg.com/download/android/58526-stuffing-oreo-sticker-brownie-chocolate-cookie-android.png" alt="" style="height: 1.5rem;"> </a></li>
+                        <li><a class="dropdown-item" href="#mentachips">MentaChips <img src="https://cdn-icons-png.flaticon.com/512/4139/4139331.png" alt="" style="height: 1.5rem;"></a></li>
+                        <li><a class="dropdown-item" href="#cocoLeche">Coco c/ leche  <img src="https://cdn-icons-png.flaticon.com/512/1411/1411002.png" alt="" style="height: 1.5rem;"> </a></li>
+                        <li><a class="dropdown-item" href="#fresaLeche">Fresa c/ leche <img src="https://cdn-icons-png.flaticon.com/512/590/590685.png" alt="" style="height: 20px;"> </a></li>
+                        <li><a class="dropdown-item" href="#lucumaLeche">Lúcuma c/ leche  <img src="https://cdn-icons-png.flaticon.com/512/6532/6532458.png" alt="" style="height: 1.5rem;"> </a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contac"><i class='bx bxs-envelope' ></i> Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-primary" type="submit"><i class='bx bx-search-alt'></i> </button>
+                </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="box-Carousel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+        <div class="box-produc container-fluid">
+            <div class="container producs">
+                <div class="box-tradic">
+                    <div class="box-tradic-title d-inline-flex">
+                        <h3>Tradicionales</h3>
+                    </div>
+                    <div class="row justify-content-around" id="box-tradd">
+                        <div class="card col-sm-6 mb-3 mb-sm-0" style="width: 18rem;" id="fresa">
+                            <img src="https://recetas.cosasdepeques.com/wp-content/uploads/sites/2/2012/07/helado-de-agua-y-de-fruta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> <img src="https://cdn-icons-png.flaticon.com/512/590/590685.png" alt="" style="height: 1.5rem;"> Fresa </h5>
+                                <p class="card-text">Las fresas son ricas en antioxidantes, vitamina C y fibra. Benefician la salud cardiovascular, inmunidad, digestión y piel.</p>
+    
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <i class='bx bxs-badge-check'></i> Ingredientes:
+                                        </button>
+                                      </h2>
+                                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Fresas</li>
+                                                <li class="list-group-item">Azucar Rubia</li>
+                                                <li class="list-group-item">Agua Hervida / Botella</li>
+                                                <li class="list-group-item">Esencia de Vainilla</li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                <div class="box-precio d-flex justify-content-between" >
+                                    <div class="p-2">
+                                        <h6><i class='bx bx-money-withdraw'></i> Costo:</h6> 
+                                    </div>
+                                    <div class="p-2">
+                                        <p id="price" > <b>S/ 0.90</b></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex justify-content-around " >
+                                    <div class="p-2">
+                                        <select name="cantidad" id="canti-sel">
+                                            <!-- <?php for ($cont = 10; $cont <= 50; $cont++): ?> -->
+                                            <option disabled>Cantidad</option>
+                                            <option value="10">10</option>
+                                            <option value="15">15</option>
+                                            <option value="20">20</option>
+                                            <option value="25">25</option>
+                                            <option value="30">30</option>
+                                            
+                                            <!-- <?php endfor; ?> -->
+                                        </select>
+                                    </div>
+                                    <div class="p-2">
+                                        <a href="#" class="btn btn-outline-success">Añadir <i class='bx bx-cart-add'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card col-sm-6 mb-3 mb-sm-0" style="width: 18rem;" id="maracuya">
+                            <img src="https://recetas.cosasdepeques.com/wp-content/uploads/sites/2/2012/07/helado-de-agua-y-de-fruta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> <img src="https://cdn-icons-png.flaticon.com/512/2759/2759492.png" alt="" style="height: 1.5rem;"> </a> Maracuya </h5>
+                                <p class="card-text">La maracuyá, llena de antioxidantes y vitamina C, favorece la salud cardiovascular, inmunidad y digestión.</p>
+    
+                                <div class="accordion accordion-flush" id="accordionMaracuya">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Maracuya" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <i class='bx bxs-badge-check'></i> Ingredientes:
+                                        </button>
+                                      </h2>
+                                      <div id="flush-Maracuya" class="accordion-collapse collapse" data-bs-parent="#accordionMaracuya">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Maracuya</li>
+                                                <li class="list-group-item">Azucar Rubia</li>
+                                                <li class="list-group-item">Agua Hervida / Botella</li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                <div class="box-precio d-flex justify-content-between" >
+                                    <div class="p-2">
+                                        <h6><i class='bx bx-money-withdraw'></i> Costo:</h6> 
+                                    </div>
+                                    <div class="p-2">
+                                        <p id="price" > <b>S/ 0.90</b></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex justify-content-around " >
+                                    <div class="p-2">
+                                        <select name="cantidad" id="canti-sel">
+                                            <!-- <?php for ($cont = 10; $cont <= 50; $cont++): ?> -->
+                                            <option disabled>Cantidad</option>
+                                            <option value="10">10</option>
+                                            <option value="15">15</option>
+                                            <option value="20">20</option>
+                                            <option value="25">25</option>
+                                            <option value="30">30</option>
+                                            
+                                            <!-- <?php endfor; ?> -->
+                                        </select>
+                                    </div>
+                                    <div class="p-2">
+                                        <a href="#" class="btn btn-outline-success">Añadir <i class='bx bx-cart-add'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card col-sm-6 mb-3 mb-sm-0" style="width: 18rem;" id="mango">
+                            <img src="https://recetas.cosasdepeques.com/wp-content/uploads/sites/2/2012/07/helado-de-agua-y-de-fruta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> <img src="https://cdn-icons-png.flaticon.com/512/6866/6866546.png" alt="" style="height: 1.5rem;"> Mango </h5>
+                                <p class="card-text">
+                                    El mango es rico en antioxidantes y vitamina C, beneficiando la inmunidad, la salud ocular y la digestión. </p>
+    
+                                <div class="accordion accordion-flush" id="accordionMango">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Mango" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <i class='bx bxs-badge-check'></i> Ingredientes:
+                                        </button>
+                                      </h2>
+                                      <div id="flush-Mango" class="accordion-collapse collapse" data-bs-parent="#accordionMango">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Mango</li>
+                                                <li class="list-group-item">Azucar Rubia</li>
+                                                <li class="list-group-item">Agua Hervida / Botella</li>
+                                                <li class="list-group-item">Esencia de Vainilla</li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                <div class="box-precio d-flex justify-content-between" >
+                                    <div class="p-2">
+                                        <h6><i class='bx bx-money-withdraw'></i> Costo:</h6>  
+                                    </div>
+                                    <div class="p-2">
+                                        <p id="price" > <b>S/ 0.90</b></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex justify-content-around " >
+                                    <div class="p-2">
+                                        <select name="cantidad" id="canti-sel">
+                                            <!-- <?php for ($cont = 10; $cont <= 50; $cont++): ?> -->
+                                            <option disabled>Cantidad</option>
+                                            <option value="10">10</option>
+                                            <option value="15">15</option>
+                                            <option value="20">20</option>
+                                            <option value="25">25</option>
+                                            <option value="30">30</option>
+                                            
+                                            <!-- <?php endfor; ?> -->
+                                        </select>
+                                    </div>
+                                    <div class="p-2">
+                                        <a href="#" class="btn btn-outline-success">Añadir <i class='bx bx-cart-add'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="box-Espe " >
+                    <div class="box-Espe-title d-inline-flex" >
+                        <h3>Especiales</h3>
+                    </div>
+                    <div class="row justify-content-around" id="box-espe">
+                        <div class="card col-sm-6 mb-3 mb-sm-0" style="width: 18rem;" id="fresaLeche">
+                            <img src="https://recetas.cosasdepeques.com/wp-content/uploads/sites/2/2012/07/helado-de-agua-y-de-fruta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> <img src="https://cdn-icons-png.flaticon.com/512/590/590685.png" alt="" style="height: 1.5rem;"> Fresa c/ leche </h5>
+                                <p class="card-text">Un sabor clásico y delicioso que satisface los antojos dulces y refresca en los días cálidos.</p>
+    
+                                <div class="accordion accordion-flush" id="accordionfreLe">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-freLe" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <i class='bx bxs-badge-check'></i> Ingredientes:
+                                        </button>
+                                      </h2>
+                                      <div id="flush-freLe" class="accordion-collapse collapse" data-bs-parent="#accordionfreLe">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Fresas</li>
+                                                <li class="list-group-item">Leche evaporada</li>
+                                                <li class="list-group-item">Azucar Rubia</li>
+                                                <li class="list-group-item">Agua Hervida / Botella</li>
+                                                <li class="list-group-item">Esencia de Vainilla</li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                <div class="box-precio d-flex justify-content-between" >
+                                    <div class="p-2">
+                                        <h6><i class='bx bx-money-withdraw'></i> Costo:</h6> 
+                                    </div>
+                                    <div class="p-2">
+                                        <p id="price"> <b>S/ 1.10</b></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex justify-content-around " >
+                                    <div class="p-2">
+                                        <select name="cantidad" id="canti-sel">
+                                            <!-- <?php for ($cont = 10; $cont <= 50; $cont++): ?> -->
+                                            <option disabled>Cantidad</option>
+                                            <option value="10">10</option>
+                                            <option value="15">15</option>
+                                            <option value="20">20</option>
+                                            <option value="25">25</option>
+                                            <option value="30">30</option>
+                                            
+                                            <!-- <?php endfor; ?> -->
+                                        </select>
+                                    </div>
+                                    <div class="p-2">
+                                        <a href="#" class="btn btn-outline-success">Añadir <i class='bx bx-cart-add'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card col-sm-6 mb-3 mb-sm-0" style="width: 18rem;" id="oreo">
+                            <img src="https://recetas.cosasdepeques.com/wp-content/uploads/sites/2/2012/07/helado-de-agua-y-de-fruta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> <img src="https://freepngimg.com/download/android/58526-stuffing-oreo-sticker-brownie-chocolate-cookie-android.png" alt="" style="height: 1.5rem;"> Oreo </h5>
+                                <p class="card-text"> Este sabor clásico ofrece una experiencia dulce y texturalmente satisfactoria para los amantes de las galletas y el helado.</p>
+    
+                                <div class="accordion accordion-flush" id="accordionOreo">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Oreo" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <i class='bx bxs-badge-check'></i> Ingredientes:
+                                        </button>
+                                      </h2>
+                                      <div id="flush-Oreo" class="accordion-collapse collapse" data-bs-parent="#accordionOreo">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Oreo</li>
+                                                <li class="list-group-item">Leche evaporada</li>
+                                                <li class="list-group-item">Azucar Rubia</li>
+                                                <li class="list-group-item">Agua Hervida / Botella</li>
+                                                <li class="list-group-item">Esencia de Vainilla</li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                <div class="box-precio d-flex justify-content-between" >
+                                    <div class="p-2">
+                                        <h6><i class='bx bx-money-withdraw'></i> Costo:</h6> 
+                                    </div>
+                                    <div class="p-2">
+                                        <p id="price"> <b>S/ 1.10</b></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex justify-content-around " >
+                                    <div class="p-2">
+                                        <select name="cantidad" id="canti-sel">
+                                            <!-- <?php for ($cont = 10; $cont <= 50; $cont++): ?> -->
+                                            <option disabled>Cantidad</option>
+                                            <option value="10">10</option>
+                                            <option value="15">15</option>
+                                            <option value="20">20</option>
+                                            <option value="25">25</option>
+                                            <option value="30">30</option>
+                                            
+                                            <!-- <?php endfor; ?> -->
+                                        </select>
+                                    </div>
+                                    <div class="p-2">
+                                        <a href="#" class="btn btn-outline-success">Añadir <i class='bx bx-cart-add'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card col-sm-6 mb-3 mb-sm-0" style="width: 18rem;" id="cocoLeche">
+                            <img src="https://recetas.cosasdepeques.com/wp-content/uploads/sites/2/2012/07/helado-de-agua-y-de-fruta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> <img src="https://cdn-icons-png.flaticon.com/512/1411/1411002.png" alt="" style="height: 1.5rem;"> Coco c/ leche </h5>
+                                <p class="card-text"> Su cremosidad y sabor lo hacen irresistible, ofreciendo un toque tropical y una alternativa refrescante en los días calurosos.</p>
+    
+                                <div class="accordion accordion-flush" id="accordionCoco">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Coco" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <i class='bx bxs-badge-check'></i> Ingredientes:
+                                        </button>
+                                      </h2>
+                                      <div id="flush-Coco" class="accordion-collapse collapse" data-bs-parent="#accordionCoco">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Coco</li>
+                                                <li class="list-group-item">Leche evaporada</li>
+                                                <li class="list-group-item">Azucar Refinada</li>
+                                                <li class="list-group-item">Agua Hervida / Botella</li>
+                                                <li class="list-group-item">Esencia de Vainilla</li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                <div class="box-precio d-flex justify-content-between" >
+                                    <div class="p-2">
+                                        <h6><i class='bx bx-money-withdraw'></i> Costo:</h6>  
+                                    </div>
+                                    <div class="p-2">
+                                        <p id="price"> <b>S/ 1.10</b></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex justify-content-around " >
+                                    <div class="p-2">
+                                        <select name="cantidad" id="canti-sel">
+                                            <!-- <?php for ($cont = 10; $cont <= 50; $cont++): ?> -->
+                                            <option disabled>Cantidad</option>
+                                            <option value="10">10</option>
+                                            <option value="15">15</option>
+                                            <option value="20">20</option>
+                                            <option value="25">25</option>
+                                            <option value="30">30</option>
+                                            
+                                            <!-- <?php endfor; ?> -->
+                                        </select>
+                                    </div>
+                                    <div class="p-2">
+                                        <a href="#" class="btn btn-outline-success">Añadir <i class='bx bx-cart-add'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card col-sm-6 mb-3 mb-sm-0" style="width: 18rem;" id="mentachips">
+                            <img src="https://recetas.cosasdepeques.com/wp-content/uploads/sites/2/2012/07/helado-de-agua-y-de-fruta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> <img src="https://cdn-icons-png.flaticon.com/512/4139/4139331.png" alt="" style="height: 1.5rem;"> MentaChips </h5>
+                                <p class="card-text">Combina la frescura de la menta con la dulzura de las chispas de chocolate. Ofrece una experiencia refrescante y deliciosa en cada bocado.</p>
+    
+                                <div class="accordion accordion-flush" id="accordionMenta">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Menta" aria-expanded="false" aria-controls="flush-Menta">
+                                            <i class='bx bxs-badge-check'></i> Ingredientes:
+                                        </button>
+                                      </h2>
+                                      <div id="flush-Menta" class="accordion-collapse collapse" data-bs-parent="#accordionMenta">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Esencia de Menta</li>
+                                                <li class="list-group-item">Chispas de Chocolate</li>
+                                                <li class="list-group-item">Leche evaporada</li>
+                                                <li class="list-group-item">Azucar Rubia</li>
+                                                <li class="list-group-item">Agua Hervida / Botella</li>
+                                                <li class="list-group-item">Esencia de Vainilla</li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                <div class="box-precio d-flex justify-content-between" >
+                                    <div class="p-2">
+                                        <h6><i class='bx bx-money-withdraw'></i> Costo:</h6>  
+                                    </div>
+                                    <div class="p-2">
+                                        <p id="price"> <b>S/ 1.10</b></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex justify-content-around " >
+                                    <div class="p-2">
+                                        <select name="cantidad" id="canti-sel">
+                                            <!-- <?php for ($cont = 10; $cont <= 50; $cont++): ?> -->
+                                            <option disabled>Cantidad</option>
+                                            <option value="10">10</option>
+                                            <option value="15">15</option>
+                                            <option value="20">20</option>
+                                            <option value="25">25</option>
+                                            <option value="30">30</option>
+                                            
+                                            <!-- <?php endfor; ?> -->
+                                        </select>
+                                    </div>
+                                    <div class="p-2">
+                                        <a href="#" class="btn btn-outline-success">Añadir <i class='bx bx-cart-add'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card col-sm-6 mb-3 mb-sm-0" style="width: 18rem;" id="lucumaLeche">
+                            <img src="https://recetas.cosasdepeques.com/wp-content/uploads/sites/2/2012/07/helado-de-agua-y-de-fruta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> <img src="https://cdn-icons-png.flaticon.com/512/6532/6532458.png" alt="" style="height: 1.5rem;"> Lúcuma c/ leche </h5>
+                                <p class="card-text">La lúcuma, llena de antioxidantes y fibra, apoya la digestión, la piel y el sistema inmunológico.</p>
+    
+                                <div class="accordion accordion-flush" id="accordionLucuma">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Lucuma" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <i class='bx bxs-badge-check'></i> Ingredientes:
+                                        </button>
+                                      </h2>
+                                      <div id="flush-Lucuma" class="accordion-collapse collapse" data-bs-parent="#accordionLucuma">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Lúcuma</li>
+                                                <li class="list-group-item">Leche evaporada</li>
+                                                <li class="list-group-item">Azucar Rubia</li>
+                                                <li class="list-group-item">Agua Hervida / Botella</li>
+                                                <li class="list-group-item">Esencia de Vainilla</li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                <div class="box-precio d-flex justify-content-between" >
+                                    <div class="p-2">
+                                        <h6><i class='bx bx-money-withdraw'></i> Costo:</h6> 
+                                    </div>
+                                    <div class="p-2">
+                                        <p id="price"> <b>S/ 1.10</b></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex justify-content-around " >
+                                    <div class="p-2">
+                                        <select name="cantidad" id="canti-sel">
+                                            <!-- <?php for ($cont = 10; $cont <= 50; $cont++): ?> -->
+                                            <option disabled>Cantidad</option>
+                                            <option value="10">10</option>
+                                            <option value="15">15</option>
+                                            <option value="20">20</option>
+                                            <option value="25">25</option>
+                                            <option value="30">30</option>
+                                            
+                                            <!-- <?php endfor; ?> -->
+                                        </select>
+                                    </div>
+                                    <div class="p-2">
+                                        <a href="#" class="btn btn-outline-success">Añadir <i class='bx bx-cart-add'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="container-fluid box-conta">
+        <div class="container" id="contac" >
+            <div class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/Munay.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Contratanos</h5>
+                      <form action="">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Dejanos tu Nombre</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre..">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe aqui..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary"><a href="/home" class="nav-link">Marcianitoo!</a></button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <footer>
+        <div class="box-footer container">
+            <div class="row" id="footer">
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card" >
+                        <div class="card-body">
+                            <h5 class="card-title">Nosotros</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Emprededores</h6>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Mision</li>
+                                <li class="list-group-item">Vision</li>
+                                <li class="list-group-item">Unete a Munay</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" >
+                        <div class="card-body">
+                            <h5 class="card-title">Redes Sociales</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Siguenos!</h6>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">TikTok</li>
+                                <li class="list-group-item">Facebook</li>
+                                <li class="list-group-item">Instagram</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Contacto Eventos</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Cumpleaños - Conciertos - Ferias</h6>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"> <i class='bx bx-mail-send' > </i> Escribemos a nuestro <a href="mailto:kleibertmedina@gmail.com">Email</a></li>
+                                <li class="list-group-item">Movil</li>
+                                <li class="list-group-item">Direccion</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

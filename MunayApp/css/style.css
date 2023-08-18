@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Timmana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1, h2 , h3, h4, h5, h6 {
+    font-family: 'Urbanist', sans-serif;
+}
+p {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+body {
+    /* background-image: linear-gradient(to bottom, #051937, #002567, #002d97, #3d2cc4, #7912eb); */
+}
+.navbar{
+    font-size: 1.3rem;
+    font-family: 'Urbanist', sans-serif;
+    background-color: rgb(208, 248, 202);
+}
+
+.box-produc {
+    background-color: rgb(208, 248, 202);
+    /* background-color: rgb(201, 162, 236); */
+}
+
+.producs {
+    padding: 1.5rem;
+}
+
+.box-tradic-title {
+    background-color: gold;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.box-tradic-title h3{
+    font-size: 2.5rem;
+    margin: .5rem;
+}
+#box-tradd{
+    background-color: rgb(241, 243, 151);
+    border-radius: 10px;
+    padding: 2rem 0;
+}
+
+.box-Espe-title{
+    background-color: rgb(250, 123, 229);
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.box-Espe-title h3{
+    font-size: 2.5rem;
+    margin: .5rem;
+}
+
+#box-espe{
+    background-color: rgb(232, 207, 255); 
+    border-radius: 10px;
+    padding: 2rem 0;
+}
+
+#canti-sel{
+    border: none;
+    height: 2.5rem;
+}
+
+
+#price {
+    font-size: 1.3rem;
+    color: rgb(31, 192, 58);
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Timmana', sans-serif;
+}
+
+.card {
+    margin: 1rem 0;
+}
+
+.card:hover{
+    transition: all ease-in-out .3s;
+    transform: translatey(-15px) translatex(-15px);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    /* background: rgba(255, 255, 255, .3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(50px); */
+}
+
+.box-conta{
+    background-color: rgb(240, 248, 255);
+    padding: 1.5rem;
+}
+
+footer {
+    background-color: rgb(250, 192, 192);
+    padding: 1rem;
+}
